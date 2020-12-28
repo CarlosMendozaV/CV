@@ -1,0 +1,65 @@
+.top-container {
+  background-color: #e4f9f5;
+  border: 0;
+  position: relative;
+  padding: 100px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #66bfbf;
+  font-size: 5rem;
+  margin: 50px;
+  margin-bottom: 0;
+}
+h2{
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+#h2pri {
+  color: #66bfbf;
+}
+
+h3{
+  color: #66bfbf;
+  font-size: 2rem;
+}
+p {
+  font-family: 'Courier New';
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #e4f9f5;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 30rem;
+  right: 12.5rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+}
+
+/* THIS WAS PART OF A PRACTICE*/
+.logo{
+  width: 150px;
+
+}
+.middle-container {
+
+  /*position: relative;*/
+}
+
+.bottom-container {
+
+  /*position: relative;
+  left: 260px;*/
+}
