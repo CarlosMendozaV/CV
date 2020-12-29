@@ -1,10 +1,3 @@
-.top-container {
-  background-color: #e4f9f5;
-  border: 0;
-  position: relative;
-  padding: 100px;
-}
-
 h1 {
   font-family: 'Dancing Script', cursive;
   color: #66bfbf;
@@ -16,10 +9,8 @@ h2{
   color: #66bfbf;
   font-size: 2.5rem;
   font-weight: normal;
-  margin: 0;
-}
-#h2pri {
-  color: #66bfbf;
+  margin: 30px;
+  text-align: center;
 }
 
 h3{
@@ -27,39 +18,122 @@ h3{
   font-size: 2rem;
 }
 p {
-  font-family: 'Courier New';
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
 }
 
 body {
   margin: 0;
   text-align: center;
-  background-color: #e4f9f5;
+
+}
+hr{
+  border-top-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  width: 7%;
+}
+.top-container {
+  background-color: #EAF6F6;
+  border: 0;
+  position: relative;
+  padding: 100px 100px 0 100px;
 }
 
 .top-cloud {
   position: absolute;
-  top: 30rem;
-  right: 12.5rem;
+  top: 50%;
+  right: 25%;
 }
 
 .bottom-cloud {
   position: absolute;
-  bottom: 200px;
-  left: 200px;
+  bottom: 25%;
+  left: 25%;
 }
-
-/* THIS WAS PART OF A PRACTICE*/
-.logo{
+.MAINIMG{
   width: 150px;
+}
+.logo {
+  width: 25%;
+  float: left;
+  margin-right: 30PX;
 
 }
-.middle-container {
-
-  /*position: relative;*/
+.logo2 {
+  width: 25%;
+  float: right;
+  margin-left: 30PX;
 }
 
 .bottom-container {
+background-color: #66BFBF;
+  padding: 50px 0 50px 0;
 
-  /*position: relative;
-  left: 260px;*/
 }
+
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+  margin: 40px 20px;
+  font-family: 'Montserrat', sans-serif;
+  width: 40%;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.profile{
+  margin: 100px auto 100px auto;
+  width: 40%;
+
+}
+.skills{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.tm{
+  color: #EAF6F6;
+  margin: 50px auto 0;
+  padding-bottom: 0;
+  font-size: 10px;
+
+}
+.contact-me{
+  width: 40%;
+  margin: 100px auto 100px auto;
+}
+.btn{
+background-color: #66BFBF;
+border-radius: 12px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.btn:hover{
+  background-color: grey;
+  border-radius: 12px;
+  color: skyblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.skill-row{
+  padding: 100px 0 50px 0;
+}
+#h2pri {
+  color: #66bfbf;
+}
+
